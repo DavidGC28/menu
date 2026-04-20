@@ -1,1 +1,6 @@
-vamos con un nuevo proyecto, recuerda que soy un estudiante de programación y me gustaria que seas muy especifico con los cambios y recomendaciones 
+- vamos con un nuevo proyecto, recuerda que soy un estudiante de programación y me gustaria que seas muy especifico con los cambios y recomendaciones
+- por lo pronto quiero hacer un menu que se vea interactivo para enlazar mis proyectos
+- si algo si o podriamos darle un toque mas de los 2000 q se asemeje a un estuche de cds
+- ayudame a crear contenedores y animacion, quiero q al acercar el cursor resalte cada opcion
+-coloquemos un fondo de pantalla 
+- 
