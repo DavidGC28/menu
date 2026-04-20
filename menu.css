@@ -1,0 +1,82 @@
+CSS
+/* 1. Reset básico para que todo se vea igual en cualquier navegador */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #0f172a; /* Fondo azul muy oscuro (profesional) */
+    color: white;
+    font-family: 'Segoe UI', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.menu-container {
+    text-align: center;
+    width: 90%;
+    max-width: 500px;
+}
+
+h1 {
+    margin-bottom: 30px;
+    font-size: 2.5rem;
+    color: #38bdf8; /* Azul claro brillante */
+}
+
+/* 2. Contenedor de los enlaces */
+.proyectos-nav {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.card-link {
+    text-decoration: none; /* Quitamos el subrayado azul del link */
+    color: inherit;
+}
+
+/* 3. La "Caja" interactiva */
+.card {
+    background: #1e293b;
+    padding: 20px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    border: 2px solid transparent;
+    transition: all 0.3s ease; /* ESTO ES CLAVE PARA LA INTERACTIVIDAD */
+    cursor: pointer;
+}
+
+/* EFECTO HOVER: Lo que pasa cuando pasas el mouse */
+.card:hover {
+    background: #334155;
+    border-color: #38bdf8;
+    transform: translateX(10px); /* Se mueve un poquito a la derecha */
+    box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+}
+
+.emoji {
+    font-size: 40px;
+    margin-right: 20px;
+}
+
+.textos h3 {
+    font-size: 1.2rem;
+    color: #f1f5f9;
+}
+
+.textos p {
+    font-size: 0.9rem;
+    color: #94a3b8;
+}
+
+/* Proyecto aún no disponible */
+.bloqueado {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
